@@ -1,7 +1,7 @@
 export function Header1({num}) {
     return (
         <>
-         <div className='flex flex-col items-center justify-center min-h-screen bg-white'> 
+         <div className='flex flex-col items-center justify-center min-h-screen bg-white border-solid'> 
         <button onClick={() => {}}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
           count is {num}

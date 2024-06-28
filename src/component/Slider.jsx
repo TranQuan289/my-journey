@@ -51,11 +51,8 @@ function Slider() {
     {
       src: "https://rikkei.vn/storage/cache/storage/ckfinder/images/z5479973355572_01e5c9818281c7c281034102e4e9c444-r-400-217.jpg",
       alt: "meo",
-    },
-    {
-      src: "https://rikkei.vn/storage/cache/storage/ckfinder/images/z5479973355572_01e5c9818281c7c281034102e4e9c444-r-400-217.jpg",
-      alt: "meo",
-    },
+    }
+    // s
   ];
 
   return (

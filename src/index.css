@@ -2,3 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+  .vertical-timeline-element--work .vertical-timeline-element-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  }
+  .vertical-timeline-element--content {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vertical-timeline-element--content {
+  box-shadow: none; /* Override default timeline connector shadow */
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+}
+/* index.css */
+body {
+  margin: 0;
+}
+
+.app {
+  height: 500vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}

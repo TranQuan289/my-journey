@@ -1,4 +1,4 @@
-export function Header1({num}) {
+  export function Header1({num}) {
     return (
         <>
          <div className='flex flex-col items-center justify-center min-h-screen bg-white border-solid'> 
